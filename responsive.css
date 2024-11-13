@@ -1,0 +1,52 @@
+@media (max-width: 480px) {
+
+    #container {
+      width: 330px;
+      height: 430px;
+    }
+
+    #items-container {
+      margin-top: 15px;
+      margin-bottom: 20px;
+      position: relative;
+      height: 60px;
+    }
+    
+    #line {
+      width: 100%;
+      height: 3px;    }
+    
+    #date-container {
+      font-size: 47px;
+      line-height: 45px;
+    
+      && span {
+        color: hsl(259, 100%, 65%);
+      }
+    }
+
+    label {
+      width: 95px;
+    }
+    
+    input {
+      width: 80px;
+      font-size: 20px;
+      padding: 10px;
+    }
+
+    picture {
+      width: 55px;
+      height: 50px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+
+    .error-message{
+      font-size: 7px;
+    }
+}

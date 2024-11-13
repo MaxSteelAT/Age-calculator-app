@@ -1,0 +1,104 @@
+body {
+  background-color: hsl(0, 0%, 94%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+}
+
+label {
+  width: 165px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: hsl(0, 1%, 44%);
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+}
+
+input {
+  height: 50px;
+  width: 130px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 5px;
+  border-style: groove;
+  border-color: hsl(0, 0%, 100%);
+  padding: 15px;
+}
+
+input:focus {
+  border-color: hsl(259, 100%, 65%);
+}
+
+picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(259, 100%, 65%);
+  width: 12%;
+  height: 70px;
+  border-radius: 50%;
+}
+
+img {
+  background-color: hsl(259, 100%, 65%);
+  width: 50%;
+  height: 70%;
+}
+
+#container {
+  width: 700px;
+  height: 530px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 40px;
+  border-radius: 20px 20px 140px 20px;
+}
+
+#items-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#line {
+  width: 85%;
+  height: 3px;
+  background-color: hsl(0deg 0% 91.76%);
+  align-self: center;
+  text-decoration-line: line-through;
+}
+
+#date-container {
+  font-family: "Poppins", "sans-serif";
+  font-weight: 800;
+  font-style: italic;
+  font-size: 90px;
+  line-height: 100px;
+
+  && span {
+    color: hsl(259, 100%, 65%);
+  }
+}
+
+.error-message{
+  font-family: "Poppins", "sans-serif";
+  font-size: 12px;
+  font-style: italic;
+  color: hsl(0, 100%, 67%);
+  margin-top: 5px;
+}
+
+.error-label{
+  color: hsl(0, 100%, 67%);
+}
